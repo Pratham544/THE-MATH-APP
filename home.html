@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title">Welcome | The Math App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+        <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <link rel="stylesheet" href="home.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <center>
+                <h1 id="Welcome" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Welcome To</h1>
+                <h1 id="Header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">The Math Web App</h1>
+                <h2 id="Name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></h2>
+                <br>
+                <br><br>
+                <div id="main_div">
+                    <h3>What do you want to practice today?</h3>
+                    <div id="buttons" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&nbsp;
+                        <button id="Stats" class="btn btn-primary" onclick="Stats()">Statistics</button>&nbsp;&nbsp;<button id="Addition" class="btn btn-primary" onclick="Practice(this.id);">Addition</button>&nbsp;&nbsp;<button class="btn btn-primary" id="Subtraction" onclick="Practice(this.id);">Subtraction</button>&nbsp;&nbsp;<button id="Multiplication" class="btn btn-primary" onclick="Practice(this.id);">Multiplication</button>&nbsp;&nbsp;<button id="Division" class="btn btn-primary" onclick="Practice(this.id);">Division</button>&nbsp;&nbsp;<button id="settings" class="btn btn-primary" onclick="Settings();">Settings</button>
+                    </div>    
+                </div>
+            </center>
+        </div>
+        <script src="home.js"></script>
+    </body>
+</html>
+
+

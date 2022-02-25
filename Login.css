@@ -1,0 +1,56 @@
+body {
+    background: lightblue;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin-left: 32.5%;
+}
+
+#First_div {
+    height: 100%;
+    background: dodgerblue;
+    text-align: center;
+    float: left;
+}
+
+button {
+    box-shadow: 5px 5px 5px gray;
+}
+
+#First_div img {
+    width: 250;
+    height: 250;
+    margin-top: 150px;
+}
+
+#Second_div {
+    text-align: center;
+}
+
+#userlabel {
+    margin-top: 200px;
+}
+
+#error {
+    color: red;
+}
+
+#loadimg {
+    width: 50px;
+    height: 50px;
+}
+
+.sign {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.form-control {
+    box-shadow: 4px 4px 4px gray;
+    width: 17.5%;
+}
